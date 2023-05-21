@@ -1,6 +1,6 @@
-baseurl = "https://username.github.io"
-DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+baseurl = "https://rededeapoiomutuo.github.io/"
+DefaultContentLanguage = "pt"
+title = "Rede de Apoio Mútuo"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -13,7 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+  subtitle = "Organização de apoio mútuo feita por nós e para nós. Somos trabalhadores, moradores, imigrantes unides porque só assim somos fortes!"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -44,11 +44,11 @@ pygmentsCodefencesGuessSyntax = true
 
 [Author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Some Person"
+  name = "Rede de Apoio Mútuo"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
-  facebook = "username"
-  github = "username"
+  facebook = "RededeApoioMutuo"
+  github = "rededeapoiomutuo"
   gitlab = "username"
   bitbucket = "username"
   twitter = "username"
