@@ -1,7 +1,7 @@
-baseurl = ""
+baseurl = "/"
 DefaultContentLanguage = "pt"
 title = "Rede de Apoio Mútuo"
-theme = "beautifulhugo"
+#theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
