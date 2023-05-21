@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = ""
 DefaultContentLanguage = "pt"
 title = "Rede de Apoio Mútuo"
 theme = "beautifulhugo"
@@ -17,7 +17,7 @@ pygmentsCodefencesGuessSyntax = true
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+#dateFormat = "January 2, 2006"
   commit = false
   rss = true
   comments = true
@@ -46,34 +46,34 @@ pygmentsCodefencesGuessSyntax = true
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Rede de Apoio Mútuo"
   website = "yourwebsite.com"
-  email = "youremail@domain.com"
+  email = "ramlx@riseup.net"
+  instagram = "redeapoiomutuo"
   facebook = "RededeApoioMutuo"
+  twitter = "redeapoiomutuo"
   github = "rededeapoiomutuo"
-  gitlab = "username"
-  bitbucket = "username"
-  twitter = "username"
-  reddit = "username"
-  linkedin = "username"
-  xing = "username"
-  stackoverflow = "users/XXXXXXX/username"
-  snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
-  soundcloud = "username"
-  spotify = "username"
-  bandcamp = "username"
-  itchio = "username"
-  vk = "username"
-  paypal = "username"
-  telegram = "username"
-  500px = "username"
-  codepen = "username"
-  mastodon = "url"
-  kaggle = "username"
-  weibo = "username"
-  slack = "username"
-  discord = "invite code (https://discord.gg/XXXXXXX)"
-  strava = "userid"
+#  gitlab = "username"
+#  bitbucket = "username"
+#  reddit = "username"
+#  linkedin = "username"
+#  xing = "username"
+#  stackoverflow = "users/XXXXXXX/username"
+#  snapchat = "username"
+#  youtube = "user/username" # or channel/channelname
+#  soundcloud = "username"
+#  spotify = "username"
+#  bandcamp = "username"
+#  itchio = "username"
+#  vk = "username"
+#  paypal = "username"
+#  telegram = "username"
+#  500px = "username"
+#  codepen = "username"
+#  mastodon = "url"
+#  kaggle = "username"
+#  weibo = "username"
+#  slack = "username"
+#  discord = "invite code (https://discord.gg/XXXXXXX)"
+#  strava = "userid"
 
 [[menu.main]]
     name = "Blog"
@@ -81,7 +81,7 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "About"
+    name = "Sobre"
     url = "page/about/"
     weight = 3
 
@@ -109,6 +109,6 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 [[menu.main]]
-    name = "Tags"
+    name = "Contacto"
     url = "tags"
     weight = 3
