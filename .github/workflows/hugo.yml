@@ -47,14 +47,12 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
-            -s "./exampleSite/" \
-            --themesDir "../../"
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./exampleSite/public
-
+          submodules: recursive
+          fetch-depth: 0
   # Deployment job
   deploy:
     environment:
