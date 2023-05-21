@@ -1,4 +1,4 @@
-baseurl = "https://rededeapoiomutuo.github.io/"
+baseurl = "/"
 DefaultContentLanguage = "pt"
 title = "Rede de Apoio Mútuo"
 theme = "beautifulhugo"
